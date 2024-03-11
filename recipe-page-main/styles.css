@@ -1,0 +1,126 @@
+
+body{
+    background-color:hsl(30, 54%, 90%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: hsl(30, 10%, 34%);
+}
+
+.outfit{
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.outfit-sSpan{
+    font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.young-serif-regular {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+ }
+ 
+h1{
+    color: hsl(24, 5%, 18%);
+}
+
+h2, ol li{
+color: hsl(14, 45%, 36%);
+}
+
+ol span{    
+    color: hsl(30, 10%, 34%);
+}
+
+#prep h4{
+color: hsl(332, 51%, 32%);     
+}
+
+#prep h4, h2, #nutrition p{
+    padding-left: 25px;
+}
+
+img{
+    width: 100%;
+}
+
+main, img{
+    border-radius: 20px;
+ }
+
+main{
+    width: 60%;
+    margin: 10% auto;
+    background-color: hsl(0, 0%, 100%);
+    padding: 30px;
+}
+
+#prep{
+    background-color: hsl(330, 100%, 98%);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+
+ul, ol{
+    line-height: 1.8;
+    margin-top: 0;
+}
+
+span{
+    margin-left: 20px;
+    display: block;
+    text-align: justify;
+}
+
+
+.table{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    padding-left: 30px;
+    margin-top: 10px;
+}
+
+.sSpan{
+    color: hsl(14, 45%, 36%);   
+    text-align: right;
+}
+
+@media (max-width: 475px) {
+main{
+    width: 100%;
+    margin: 0;
+}
+body{
+    margin: 0;
+}   
+}
+
+
+
+
+ 
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); } 
+
+
+    
+/* Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://medium.com/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248) for tips on how to do this.
+
+Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community. */
+
+/* 
+- Family: [Young Serif](https://fonts.google.com/specimen/Young+Serif)
+- Weights: 400
+
+- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+- Weights: 400, 600, 700 */
